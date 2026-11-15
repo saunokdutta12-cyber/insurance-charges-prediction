@@ -85,11 +85,18 @@ Git and GitHub: Version control and project documentation
 
 ## 6. Repository Structure
 
+
+## 6. Repository Structure
+
+The project is organized into the following directories and files:
+
+```text
 insurance-charges-prediction/
 │
 ├── data/
 │   ├── raw/
 │   │   └── medical_insurance_dataset.csv
+│   │
 │   └── processed/
 │       └── updated_medical_insurance_dataset.csv
 │
@@ -104,6 +111,7 @@ insurance-charges-prediction/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## 7. Generative AI Contribution
 
