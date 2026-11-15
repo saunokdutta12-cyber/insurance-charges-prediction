@@ -4,19 +4,14 @@
 ## 1. Project Overview
 
 This project focuses on predicting individual medical insurance charges using Machine Learning techniques.
-
 The objective is to explore how factors such as age, gender, BMI, number of children, smoking habits, and geographical region influence medical insurance costs.
-
 The project demonstrates an end-to-end Machine Learning workflow, starting from raw data and data preparation through exploratory data analysis, model development, evaluation, and deployment using Streamlit.
 
 ## 2. Business Problem
 
 Insurance companies need to estimate potential medical expenses to support pricing decisions, risk assessment, and business planning.
-
 This project addresses the following question:
-
 Can we estimate an individual's medical insurance charges based on their demographic and health-related information?
-
 The prediction model uses historical insurance data to estimate insurance charges for new input records.
 
 ## 3. Dataset Description
@@ -44,38 +39,38 @@ The dataset contains individual medical insurance records with demographic, life
 - **Raw Dataset:** Contains the original data before data cleaning and transformation.
 - **Processed Dataset:** Contains the cleaned and prepared data used for exploratory analysis and model development.
 
-The repository contains:
+### The repository contains:
 
-Raw dataset: Original data before transformation.
-Processed dataset: Data prepared for subsequent analysis and model development.
+- **Raw dataset:** Original data before transformation.
+- **Processed dataset:** Data prepared for subsequent analysis and model development.
 
 ## 4. Project Workflow
 
 ### Phase 1: Data Wrangling
 
-Load and inspect the raw dataset.
-Identify missing values and inconsistent entries.
-Handle missing values.
-Review and correct data types.
-Prepare the cleaned dataset for analysis.
+-Load and inspect the raw dataset.
+-Identify missing values and inconsistent entries.
+-Handle missing values.
+-Review and correct data types.
+-Prepare the cleaned dataset for analysis.
 
 ### Phase 2: Exploratory Data Analysis (EDA)
 
-Perform descriptive statistical analysis.
-Explore the distribution of insurance charges.
-Analyze relationships between BMI, age, smoking habits, and insurance charges.
-Examine correlations between numerical variables.
-Use visualizations to identify patterns and trends.
+-Perform descriptive statistical analysis.
+-Explore the distribution of insurance charges.
+-Analyze relationships between BMI, age, smoking habits, and insurance charges.
+-Examine correlations between numerical variables.
+-Use visualizations to identify patterns and trends.
 
 ### Phase 3: Machine Learning
 
 The project explores multiple regression approaches:
 
-Simple Linear Regression
-Multiple Linear Regression
-Polynomial Regression
-Ridge Regression
-Hyperparameter tuning using GridSearchCV
+-Simple Linear Regression
+-Multiple Linear Regression
+-Polynomial Regression
+-Ridge Regression
+-Hyperparameter tuning using GridSearchCV
 
 Model evaluation and refinement are performed to assess predictive performance and compare model results.
 
@@ -93,8 +88,6 @@ Jupyter Notebook: Data analysis and experimentation
 Streamlit: Interactive application development
 Joblib: Saving and loading trained model artifacts
 Git and GitHub: Version control and project documentation
-
-## 6. Repository Structure
 
 
 ## 6. Repository Structure
@@ -136,8 +129,8 @@ Explain data preprocessing and model evaluation.
 Interpret analytical outputs and visualizations.
 Improve code readability and project documentation.
 Support the development and refinement of the Streamlit application.
-
-The Machine Learning models were trained using Scikit-learn. Generative AI supported the learning, development, and documentation process rather than generating the model's predictions.
+The Machine Learning models were trained using Scikit-learn. 
+Generative AI supported the learning, development, and documentation process rather than generating the model's predictions.
 
 ## 8. Learning Outcomes
 
@@ -158,15 +151,15 @@ git clone <https://github.com/saunokdutta12-cyber/insurance-charges-prediction.g
 
 Navigate to the project directory:
 
-cd insurance-charges-prediction
+```cd insurance-charges-prediction```
 
 Install the required libraries:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Run the Streamlit application:
 
-streamlit run app.py
+```streamlit run app.py```
 
 ### Note: The trained model file and feature-column file must be available in the project root directory. The application also requires the model's training feature configuration to match its input preprocessing.
 
