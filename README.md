@@ -21,17 +21,28 @@ The prediction model uses historical insurance data to estimate insurance charge
 
 ## 3. Dataset Description
 
-The project uses a medical insurance dataset containing the following variables:
+The dataset contains individual medical insurance records with demographic, lifestyle, and health-related information. These variables are used to analyze the factors influencing medical insurance costs and to develop a regression model for predicting insurance charges.
 
-### Feature           ### Description
-Age                   Age of the individual
-Gender                Gender of the individual
-BMI                   Body Mass Index
-Number of Children    Number of dependent children
-Smoker                Whether the individual smokes
-Region                Geographical region
-Charges               Medical insurance charges (target variable)
+### Dataset Features
 
+| Feature | Description | Data Type |
+|---|---|---|
+| Age | Age of the individual in years | Numerical |
+| Gender | Gender of the individual | Categorical |
+| BMI | Body Mass Index of the individual | Numerical |
+| Number of Children | Number of dependent children | Numerical |
+| Smoker | Smoking status (Yes/No) | Categorical |
+| Region | Geographical residential region | Categorical |
+| Charges | Individual medical insurance cost | Numerical (Target) |
+
+### Target Variable
+
+**Charges** is the dependent variable that the Machine Learning model aims to predict.
+
+### Dataset Files
+
+- **Raw Dataset:** Contains the original data before data cleaning and transformation.
+- **Processed Dataset:** Contains the cleaned and prepared data used for exploratory analysis and model development.
 
 The repository contains:
 
