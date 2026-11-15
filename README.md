@@ -66,11 +66,11 @@ The dataset contains individual medical insurance records with demographic, life
 
 The project explores multiple regression approaches:
 
--Simple Linear Regression
--Multiple Linear Regression
--Polynomial Regression
--Ridge Regression
--Hyperparameter tuning using GridSearchCV
+- ** Simple Linear Regression
+- ** Multiple Linear Regression
+- ** Polynomial Regression
+- ** Ridge Regression
+- ** Hyperparameter tuning using GridSearchCV
 
 Model evaluation and refinement are performed to assess predictive performance and compare model results.
 
